@@ -43,7 +43,7 @@ function DashboardPage() {
     
     try {
       const response = await api.post(
-        "/quiz",
+        "/quiz/",
         {
           topic, 
           no_of_questions: noOfQuestions
